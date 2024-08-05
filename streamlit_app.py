@@ -1,10 +1,10 @@
-api_key = st.secrets["api_key"]
 import pandas as pd
 import requests
 import streamlit as st
 from openai import OpenAI
 import time
 import json
+api_key = st.secrets["api_key"]
 
 client = OpenAI(api_key=api_key)
 st.header('UX Segments Auto Insurance', divider='blue')
